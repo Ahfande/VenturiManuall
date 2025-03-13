@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lateral 1</title>
+    <link rel="stylesheet" href="Lateral.css" />
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Paytone+One&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="navbar">
+        <i class="fa-solid fa-arrow-left" id="back"></i>
+        <!-- <i class="fa-solid fa-house" id="home"></i>
+          <i class="fa-solid fa-clock-rotate-left" id="riwayat"></i> -->
+      </div>
+    </nav>
+
+    <div class="BoxContainer">
+      <h1>LATERAL 1 CONTROL MANUAL PENYIRAMAN</h1>
+      <div class="BoxStatus" id="Status">Non-Aktif</div>
+      <div class="BtnContainer">
+        <button id="btnL1AOFF">
+          <i class="fa-solid fa-power-off" id="btnOFF"></i>
+        </button>
+        <button id="btnL1AON">
+          <i class="fa-solid fa-power-off" id="btnON"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="L1A.js"></script>
+  </body>
+</html>
